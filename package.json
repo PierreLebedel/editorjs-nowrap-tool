@@ -1,6 +1,6 @@
 {
   "name": "@plebjs/editorjs-nowrap-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "editor.js",
     "editorjs",
@@ -10,7 +10,7 @@
     "tool"
   ],
   "description": "No-wrap Tool for Editor.js",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PierreLebedel/editorjs-nowrap-tool.git"
@@ -34,5 +34,9 @@
   "devDependencies": {
     "vite": "^4.5.0",
     "vite-plugin-css-injected-by-js": "^3.3.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/PierreLebedel/editorjs-nowrap-tool/issues"
+  },
+  "homepage": "https://github.com/PierreLebedel/editorjs-nowrap-tool#readme"
 }
