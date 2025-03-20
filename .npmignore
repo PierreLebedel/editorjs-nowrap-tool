@@ -1,0 +1,5 @@
+.idea/
+src/
+vite.config.js
+yarn.lock
+package-lock.json

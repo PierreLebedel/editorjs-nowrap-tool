@@ -1,0 +1,38 @@
+{
+  "name": "@plebjs/editorjs-nowrap-tool",
+  "version": "1.0.0",
+  "keywords": [
+    "editor.js",
+    "editorjs",
+    "nowrap",
+    "no-wrap",
+    "nobr",
+    "tool"
+  ],
+  "description": "No-wrap Tool for Editor.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreLebedel/editorjs-nowrap-tool.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/nowrap.umd.js",
+  "module": "./dist/nowrap.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/nowrap.mjs",
+      "require": "./dist/nowrap.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "Pierre Lebedel",
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "vite-plugin-css-injected-by-js": "^3.3.0"
+  }
+}
