@@ -176,7 +176,7 @@ import './index.css';
    */
   static get sanitize() {
     return {
-      nowrap: {
+      span: {
         class: NowrapTool.CSS
       }
     };
